@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <h1>Hello from Node JS</h1>
+      <h1>Hello from Vite</h1>
     </>
   )
 }
