@@ -5,9 +5,9 @@ pipeline {
             steps {
                 bat 'npm install' 
                 bat 'npm run build'
-                bat 'ls'
+                bat 'dir'
                 bat 'cd build'
-                bat 'ls'
+                bat 'dir'
             }   
         }
         stage('S3 Upload') {
